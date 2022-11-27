@@ -21,7 +21,7 @@ void main(){
         //calculate table
     for(int j = 1; j < n; j++){
         for(int i = n-1; i >= j; i--){
-            y[i][j] = y[i][j-1] - y[i-1][j];
+            y[i][j] = y[i][j-1] - y[i-1][j-1];
         }
     }
 
